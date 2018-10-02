@@ -3,8 +3,8 @@
 This a collection of small programs written to practice C# methods.  
 
 ### Requirements
-  * .NET Core SDK
-  * Mono  
+  * .NET Core SDK https://www.microsoft.com/net/learn/dotnet/hello-world-tutorial
+  * Mono  https://www.mono-project.com/
 
 ### Create a new program
 
