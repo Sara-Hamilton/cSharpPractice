@@ -2,7 +2,7 @@ using System;
 
 // Write a method isNarcissistic(i) which returns whether or not i is a Narcissistic Number. A Narcissistic Number is a number of length n in which the sum of its digits to the power of n is equal to the original number. If this seems confusing, refer to the example below.
 // Ex: 153, where n = 3 (number of digits in 153)
-// 13 + 53 + 33 = 153 (1cubed + 5cubed + 3cubed = 153)
+// 1cubed + 5cubed + 3cubed = 153
 
 class Program
 {
@@ -18,14 +18,14 @@ class Program
     int result = 0;
     string inputString = input.ToString();
 
-    for(int i=0; i <= inputString.Length - 1; i++)
+    for (int i = 0; i <= inputString.Length - 1; i++)
     {
       int number = (int)char.GetNumericValue(inputString[i]);
       int numberToPowerOfInputLength = (int)Math.Pow(number, inputString.Length);
       result += numberToPowerOfInputLength;
     }
 
-    if(result == input)
+    if (result == input)
     {
       return true;
     }
