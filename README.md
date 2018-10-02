@@ -14,17 +14,17 @@ This a collection of small programs written to practice C# methods.
 
 ### Run an existing program in Bash or PowerShell
 
-1. clone cSharp Practice  
+1. clone cSharpPractice  
 ```
-git clone https://github.com/Sara-Hamilton/cSharpPractice  
-```
-
-2. navigate into cSharp Practice using Bash or PowerShell  
-```
-cd cSharpPractice  
+$ git clone https://github.com/Sara-Hamilton/cSharpPractice  
 ```
 
-3. to run in console, type (insert name of program to run in place of programNameHere)
+2. navigate into cSharpPractice using Bash or PowerShell  
 ```
-mcs programNameHere.cs; mono programNameHere.exe  
+$ cd cSharpPractice  
+```
+
+3. run in console
+```
+$ mcs programNameHere.cs; mono programNameHere.exe  
 ```
