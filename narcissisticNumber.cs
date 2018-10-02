@@ -15,16 +15,17 @@ class Program
 
   static bool isNarcissistic(int input)
   {
-    int cubedResult = 0;
+    int result = 0;
     string inputString = input.ToString();
 
     for(int i=0; i <= inputString.Length - 1; i++)
     {
       int number = (int)char.GetNumericValue(inputString[i]);
-      cubedResult += (number * number * number);
+      int numberToPowerOfInputLength = (int)Math.Pow(number, inputString.Length);
+      result += numberToPowerOfInputLength;
     }
 
-    if(cubedResult == input)
+    if(result == input)
     {
       return true;
     }
