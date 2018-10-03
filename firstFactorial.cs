@@ -19,13 +19,12 @@ class Program
     Console.WriteLine(FirstFactorial(1));
   }
 
-  static int FirstFactorial(int input)
+  static int FirstFactorial(int num)
   {
-    int result = input;
-    for(int i = input-1; i > 0; i--)
+    for(int i = num-1; i > 0; i--)
     {
-      result *= i;
+      num *= i;
     }
-    return result;
+    return num;
   }
 }
